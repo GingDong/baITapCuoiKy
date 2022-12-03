@@ -6,21 +6,22 @@
 }
 /* header */
 .header{
-    
     width: 100%;
     height: 76px;
     background-color: #FFFFFF;
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
     position: absolute;
-    
+   
+   
 }
 .header-content{
     background-color: #FFFFFF;
     width: 80%;
-    margin: 0 160px;
+    margin: 0 auto;
     height: 76px;
     display: flex;
+   
 }
 /* .header-left */
 .header-left{
@@ -31,8 +32,7 @@
 }
 /* .header-center */
 .header-center{
-    width: 700px;
-    margin: 0 80px;
+    margin: 0 auto;
     display: flex;
 }
 .header-center a{
@@ -57,7 +57,7 @@
 /* header-right-item */
 .header-right-item{
     display: flex;
-    width: 183px;
+    
     background-color: #FFFFFF;
     
 }
@@ -97,6 +97,7 @@
     margin-top: 40px;
 }
 .body_left{
+    
     width: 20%;
     background-color: #FFFFFF;
     height: 200px;
@@ -163,10 +164,6 @@
     height: 110px;
     outline: none ;
 }
-.form input:focus{
-
-   border-radius: 25px 25px 0px 0px;
-}
 .send_to{
     background-color: #B3CAEF;
     margin-top: 110px;
@@ -177,6 +174,7 @@
      border-radius: 0px 0px 25px 25px;
  }
 .send{
+    width: 100%;
     display: flex;
     background-color: #B3CAEF   ;
     position: absolute;
@@ -196,8 +194,9 @@
    
 }
 .submit_write{
+    display: block;
     border: none;
-   margin-left: 378px;
+    float: right;
     background-color: #A1E1FF;
     width: 100px;
     height: 90px;
@@ -253,20 +252,31 @@ label i{
 }
 .img_main{
     position: absolute;
-    margin-top: 100px;
-    margin-left: 53px;
+    margin-top: 100px;    
     border-radius: 25px;
+    background-color: #FFFFFF;
+    margin-left: 10%;
 }
+
 .img_main img{
+    width: 90%;
+    height: 100%;
+    max-height: 400px;
+    max-width: 500px;
     border-radius: 25px;
+    margin: 0 auto;
 }
 .emoji{
     position: absolute;
     margin-top: 510px;
     margin-left:53px ;
+    width: 80%;
 }
 .emoji_item{
     display: flex;
+    width: 100%;
+   justify-content: space-around;
+   background-color: #FFFFFF;
 }
 
 .emoji_item i{
@@ -277,21 +287,22 @@ label i{
 .emoji_item i:hover{
     color: rgba(213, 37, 37, 0.579);
 }
-.emoji_item i:last-child{
-    padding-left: 320px;
-   
+.emoji_item i:nth-child(2):hover{
+    color: blue;
 }
 .emoji_item i:last-child:hover{
     color: rgba(197, 197, 43, 0.622);
 }
 .comment{
+    width: 100%;
     position: absolute;
     margin-top: 600px;
-    margin-left: 53px;
+    padding-left: 50px;
     background-color: #FFFFFF;
 }
 .comment input{
-    width: 500px;
+   
+    width: 90%;
     height: 40px;
     border-radius: 25px;
    padding: 0 10px;
